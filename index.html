@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Girls Human Hair — Shop (ETB)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <div class="brand">
+        <div class="logo">GH</div>
+        <div class="brand-text">
+          <div class="name">Girls Human Hair</div>
+          <div class="tag">Premium human hair — Ethiopia</div>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="#shop">Shop</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="search">
+          <input id="searchInput" placeholder="Search bundles, wigs, closures..." />
+        </div>
+        <button id="openCartBtn" class="btn primary">Cart (<span id="cartCount">0</span>)</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-left card">
+        <h1>Premium hair — crafted for confidence</h1>
+        <p class="muted">Ethically sourced, soft, and long-lasting. Choose your length and style.</p>
+
+        <div class="filters">
+          <select id="categoryFilter">
+            <option value="all">All Categories</option>
+            <option value="bundles">Bundles</option>
+            <option value="closure">Closures</option>
+            <option value="wig">Wigs</option>
+            <option value="frontal">Frontals</option>
+          </select>
+
+          <select id="lengthFilter">
+            <option value="all">All Lengths</option>
+            <option value="10">10 inch</option>
+            <option value="12">12 inch</option>
+            <option value="14">14 inch</option>
+            <option value="16">16 inch</option>
+            <option value="18">18 inch</option>
+            <option value="20">20 inch</option>
+          </select>
+
+          <select id="sortSelect">
+            <option value="popular">Sort: Popular</option>
+            <option value="price-asc">Price: Low → High</option>
+            <option value="price-desc">Price: High → Low</option>
+            <option value="newest">Newest</option>
+          </select>
+
+          <button id="clearFilters" class="btn secondary">Clear</button>
+        </div>
+
+        <div id="productCount" class="muted">Showing <span id="countNum">0</span> items</div>
+
+        <div id="grid" class="grid">
+          <!-- products injected by script.js -->
+        </div>
+
+        <div id="emptyState" class="card empty" style="display:none">No products match your search.</div>
+      </div>
+
+      <aside class="hero-right card center">
+        <div>
+          <h2>Featured</h2>
+          <p class="muted">Brazilian Body Wave</p>
+          <div class="featured-price">Br 4,500 / bundle</div>
+        </div>
+        <button id="shopNow" class="btn primary">Shop Now</button>
+        <div class="muted small">Free local delivery on orders over Br 15,000</div>
+      </aside>
+    </section>
+  </main>
+
+  <!-- Cart Panel -->
+  <div id="cartPanel" class="cart-panel" style="display:none">
+    <div class="cart-header">
+      <div class="cart-title">Your Cart (<span id="cartTotalCount">0</span>)</div>
+      <div><button id="closeCart" class="btn secondary">Close</button></div>
+    </div>
+
+    <div id="cartItems" class="cart-items"></div>
+
+    <div class="cart-bottom">
+      <div class="muted">Subtotal</div>
+      <div class="total-amount">Br <span id="subtotal">0.00</span></div>
+    </div>
+
+    <div class="cart-actions">
+      <button id="clearCart" class="btn secondary">Clear</button>
+      <button id="checkoutBtn" class="btn primary">Checkout</button>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-card" id="modalCard"></div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container muted small">© <span id="year"></span> Girls Human Hair — All rights reserved</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
