@@ -4,23 +4,23 @@
 
 // Sample product data (uses Unsplash hair photos)
 const products = [
-  {id:1,title:'10" Brazilian Body Wave Bundle',price:4500,category:'bundles',length:10,
+  {id:1,title:'10" Brazilian Body Wave Bundle',price:45000,category:'bundles',length:10,
     image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn8dndw2I9XSVt9rVuzs6G4Ed9-LDObyZomw&s',tags:['body wave']},
-  {id:2,title:'12" Brazilian Body Wave Bundle',price:4900,category:'bundles',length:12,
+  {id:2,title:'12" Brazilian Body Wave Bundle',price:50000,category:'bundles',length:12,
     image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj1huYhoGCLZSS457WBVOsBAqw7wsLeZSHZw&s',tags:['body wave']},
-  {id:3,title:'14" Peruvian Straight Bundle',price:5900,category:'bundles',length:14,
+  {id:3,title:'14" Peruvian Straight Bundle',price:60000,category:'bundles',length:14,
     image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf18BoMeBvHLA6MpNvyCJbYntIvu-uhVWUyg&s',tags:['straight']},
   {id:4,title:'16" Indian Wavy Wig',price:12900,category:'wig',length:16,
     image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLqj8spVAp8NFufpOCCKtjmqCKCrjDktGjqg&s',tags:['wig','lace']},
-  {id:5,title:'18" Lace Frontal (13x4)',price:8900,category:'frontal',length:18,
+  {id:5,title:'18" Lace Frontal (13x4)',price:75000,category:'frontal',length:18,
     image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIHEqsGlbKpdpb5psQD7Z--UiO5vqpYKGkFg&s',tags:['frontal']},
   {id:6,title:'20" Closure 4x4',price:6900,category:'closure',length:20,
     image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCKuZVB93kzAIQBKHcX7IXG09Eyxv9LKE_vw&s',tags:['closure']},
-  {id:7,title:'14" Curly Wig - Luxury',price:14900,category:'wig',length:14,
+  {id:7,title:'14" Curly Wig - Luxury',price:45900,category:'wig',length:14,
     image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT33pc6hlvCviGTn8h7Gs_s3dgnR-t0IN62Bw&s',tags:['curly']},
-  {id:8,title:'18" Deep Wave Bundles (2pcs)',price:9900,category:'bundles',length:18,
+  {id:8,title:'18" Deep Wave Bundles (2pcs)',price:35000,category:'bundles',length:18,
     image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_KjkYFjR3rfPWbKy6fa30P1OdCEEBx6fbyg&s',tags:['deep wave']},
-  {id:9,title:'20" Straight Bundles (3pcs)',price:11900,category:'bundles',length:20,
+  {id:9,title:'20" Straight Bundles (3pcs)',price:19900,category:'bundles',length:20,
     image:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaOoUtA-z2O-piB4X3MYsZo62ElGvZCxVoIQ&s',tags:['straight','3pcs']}
 ];
 
